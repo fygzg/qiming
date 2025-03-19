@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icon Generator AI</title>
+  <!-- 引入 Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-slate-800 h-full text-white p-10">
+  <!-- 导航栏 -->
+  <nav class="p-5 rounded-b-md shadow-md flex justify-around items-center gap-4 mb-20">
+    <div class="flex flex-col items-center cursor-pointer">
+      <!-- 这里可以用 SVG 图标代替 -->
+      <div class="bg-white w-8 h-8 rounded-full"></div>
+      <h1 class="font-mono">Icon-AI</h1>
+    </div>
+
+    <div class="flex gap-5">
+      <a href="/generate">Generate</a>
+      <a href="/collection">Collection</a>
+    </div>
+
+    <div class="flex gap-20">
+      <div class="flex items-center gap-4">
+        <p>100 credits</p>
+        <button class="bg-blue-500 text-white rounded-md px-4 py-2">Buy credits</button>
+        <button class="bg-blue-500 text-white rounded-md px-4 py-2">Sign in</button>
+        <button class="bg-blue-500 text-white rounded-md px-4 py-2 hidden">Sign out</button>
+      </div>
+
+      <div>
+        <button>
+          <!-- 这里可以用 SVG 图标代替 -->
+          <div class="bg-white w-6 h-6 rounded-full"></div>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 图标显示区域 -->
+  <section class="container m-auto">
+    <h2 class="text-3xl font-bold mb-8">Generated Icons</h2>
+    <div class="grid grid-cols-3 gap-8">
+      <!-- 这里可以通过 JavaScript 动态添加图标 -->
+      <img src="https://via.placeholder.com/200x200" alt="Generated Icon 1" class="rounded-md shadow-md">
+      <img src="https://via.placeholder.com/200x200" alt="Generated Icon 2" class="rounded-md shadow-md">
+      <img src="https://via.placeholder.com/200x200" alt="Generated Icon 3" class="rounded-md shadow-md">
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer>
+    <div class="flex justify-between bg-gray-900 p-6 text-white">
+      <p>? 2023 Seibert Software Solutions, LLC</p>
+      <div class="flex gap-10">
+        <p>Terms of Service</p>
+        <p>Privacy Policy</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
